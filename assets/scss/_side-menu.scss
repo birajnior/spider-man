@@ -1,0 +1,28 @@
+.side-menu {
+  width: 6rem;
+  height: 100%;
+  background: rgba(29, 29, 29, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  .contacts {
+    height: 100%;
+    .contacts-list {
+      padding: 1.3rem;
+      .fa-brands {
+        color: #f9f9f9;
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .search {
+    .fa-solid {
+      color: #f9f9f9;
+      font-size: 1.3rem;
+      cursor: pointer;
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(29, 29, 29, 0.5);
+  .spider {
+    margin-left: 17rem;
+  }
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    nav {
+      margin-right: 2rem;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 3.62rem;
+        li {
+          a {
+            color: #f9f9f9;
+          }
+        }
+      }
+    }
+  }
+}
